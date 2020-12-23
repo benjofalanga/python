@@ -5,8 +5,6 @@ driver.implicitly_wait(30)
 driver.maximize_window()
 url="http://google.com"
 web=driver.get(url)
-kli=driver.find_element_by_name('q')
-kli.send_keys('Hitler')
 kli2=driver.find_element_by_id('gb_70')
 kli2.click()
 kli3=driver.find_element_by_xpath('//*[@id="identifierId"]')
