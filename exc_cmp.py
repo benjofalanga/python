@@ -85,7 +85,6 @@ file=menu(q)
 print('you have selected '+file)
 
 wb=openpyxl.load_workbook(file)
-# wb=openpyxl.load_workbook('Adobe users.xlsx')
 names0=wb.sheetnames[0]
 
 
@@ -95,7 +94,6 @@ print ('Select the name of the 2-nd excel file ')
 file1=menu(q)
 print('you have selected '+file)
 wb1=openpyxl.load_workbook(file1)
-# wb1=openpyxl.load_workbook('TammosExport_GMAIL.xlsx')
 names1=wb1.sheetnames[0]
 sheet1=wb1[names1]
 list1=[]
